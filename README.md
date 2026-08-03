@@ -1,16 +1,69 @@
-# React + Vite
+# AshvaLekh — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic, scroll-driven developer portfolio built with React, Tailwind CSS, and GSAP — featuring a frame-by-frame scroll animation hero, animated sections, and a working contact form.
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/status-active-success)
+![React](https://img.shields.io/badge/React-19-blue)
+![Vite](https://img.shields.io/badge/Vite-8-purple)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+[View Live Site](#) <!-- add your deployed URL here -->
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Cinematic Hero** — scroll-scrubbed image sequence animation powered by GSAP ScrollTrigger
+- **About** — bio, tech stack, and education overview
+- **Services** — core offerings with an experience highlight sidebar
+- **Selected Works** — project showcase with tags and live/GitHub links
+- **Contact** — animated contact section with a working EmailJS-powered form
+- Fully responsive, dark-themed UI with subtle HUD-style accents
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS
+- **Animation:** GSAP (ScrollTrigger) + Framer Motion
+- **Icons:** React Icons
+- **Forms:** EmailJS
+- **Notifications:** React Toastify
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/ashvalekh-portfolio.git
+cd ashvalekh-portfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to view it locally.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## ⚙️ Configuration
+
+Before deploying, update the following:
+
+1. **Contact form** — add your own [EmailJS](https://www.emailjs.com/) Service ID, Template ID, and Public Key in `src/components/Contact.jsx`
+2. **Social links** — update GitHub/LinkedIn/Twitter/Instagram URLs in `src/components/Hero.jsx` and `src/components/Footer.jsx`
+3. **Project images** — add screenshots to `public/projects/` (see filenames in `src/components/Portfolio.jsx`)
+4. **Hero/Contact animation frames** — replace image sequences in `src/assets/images/` and `public/image3/`
+5. **Resume** — add your `resume.pdf` to the `public/` folder
+
+## 📁 Project Structure
