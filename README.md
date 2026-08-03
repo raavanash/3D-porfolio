@@ -66,4 +66,12 @@ Before deploying, update the following:
 4. **Hero/Contact animation frames** — replace image sequences in `src/assets/images/` and `public/image3/`
 5. **Resume** — add your `resume.pdf` to the `public/` folder
 
-## 📁 Project Structure
+## 📄 License
+
+This project is open source and available for personal use.
+
+## 📬 Contact
+
+**Ashutosh Singh Rathore**
+Email: ashutoshsinghr92@gmail.com
+[LinkedIn](#) · [GitHub](#)
